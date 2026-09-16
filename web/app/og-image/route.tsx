@@ -84,6 +84,8 @@ export async function GET() {
             <span>Anchor Browser</span>
             <span style={{ color: "#d4d4d4" }}>·</span>
             <span>Browser Use</span>
+            <span style={{ color: "#d4d4d4" }}>·</span>
+            <span>Lightpanda</span>
           </div>
         </div>
 

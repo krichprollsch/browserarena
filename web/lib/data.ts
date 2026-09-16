@@ -83,6 +83,7 @@ const PROVIDER_META: Record<
   STEEL: { displayName: "Steel", url: "https://www.steel.dev", browserRegion: "us-east-1" },
   BROWSER_USE: { displayName: "Browser Use", url: "https://www.browser-use.com", browserRegion: "us-east-1" },
   TILION: { displayName: "Tilion", url: "https://tilion.dev", browserRegion: "us-east-1" },
+  LIGHTPANDA: { displayName: "Lightpanda", url: "https://lightpanda.io", browserRegion: "us-west-1" },
 };
 
 /** Exported for the regression detector (`lib/regression.ts`). */

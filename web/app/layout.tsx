@@ -23,7 +23,7 @@ const dmSans = DM_Sans({
 const SITE_URL = "https://browserarena.ai";
 const SITE_NAME = "The Browser Arena";
 const SITE_DESCRIPTION =
-  "Open-source benchmarks comparing cloud browser infrastructure providers on speed, reliability, and cost. Built by Notte — compare Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, and Browser Use for AI browser agents and web automation.";
+  "Open-source benchmarks comparing cloud browser infrastructure providers on speed, reliability, and cost. Built by Notte — compare Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, Browser Use and Lightpanda for AI browser agents and web automation.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -49,6 +49,7 @@ export const metadata: Metadata = {
     "Kernel",
     "Anchor Browser",
     "Browser Use",
+    "Lightpanda",
     "browser for AI agents",
     "AI agent browser infrastructure",
     "session creation time",
@@ -159,7 +160,7 @@ const jsonLd = {
           name: "What is The Browser Arena?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Browser Arena is an open-source benchmarking platform built by Notte (notte.cc) that compares cloud browser infrastructure providers on speed, reliability, and cost. It measures real session creation, CDP connection, page navigation, and session release times across leading providers including Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, and Browser Use.",
+            text: "The Browser Arena is an open-source benchmarking platform built by Notte (notte.cc) that compares cloud browser infrastructure providers on speed, reliability, and cost. It measures real session creation, CDP connection, page navigation, and session release times across leading providers including Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, Browser Use and Lightpanda.",
           },
         },
         {
@@ -175,7 +176,7 @@ const jsonLd = {
           name: "Which cloud browser providers are benchmarked?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Browser Arena benchmarks seven cloud browser providers: Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, and Browser Use. Each provider is tested for session creation latency, CDP connection time, navigation speed, and session release time under identical conditions.",
+            text: "The Browser Arena benchmarks eight cloud browser providers: Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, Browser Use and Lightpanda. Each provider is tested for session creation latency, CDP connection time, navigation speed, and session release time under identical conditions.",
           },
         },
         {
@@ -183,7 +184,7 @@ const jsonLd = {
           name: "What is the best browser infrastructure provider?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Browser infrastructure providers differ on latency, reliability, concurrency support, and pricing. The Browser Arena provides objective, reproducible benchmarks to help you choose. Visit browserarena.ai to compare all seven providers including Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, and Browser Use across P50, P90, and P95 latencies.",
+            text: "Browser infrastructure providers differ on latency, reliability, concurrency support, and pricing. The Browser Arena provides objective, reproducible benchmarks to help you choose. Visit browserarena.ai to compare all eight providers including Notte, Browserbase, Steel, Hyperbrowser, Kernel, Anchor Browser, Browser Use and Lightpanda across P50, P90, and P95 latencies.",
           },
         },
         {
